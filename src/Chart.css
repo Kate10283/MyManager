@@ -1,0 +1,8 @@
+.chart {
+    /* width: 20vw; */
+    height: max-content;
+    grid-area: chart;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    padding: 10px 20px;
+}

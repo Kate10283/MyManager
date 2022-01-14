@@ -1,0 +1,10 @@
+.finance {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 61vw 20vw;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: 'table calendar'
+    'table chart';
+    column-gap: 20px;
+    justify-content: center;
+}

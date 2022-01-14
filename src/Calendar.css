@@ -1,0 +1,47 @@
+.calendar {
+    /* margin-left: 20px; */
+    padding: 10px 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    /* width: 20vw; */
+    height: max-content;
+    grid-area: calendar;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.weekdays {
+    width: 17.5vw;
+    text-align: center;
+}
+
+.weekdays td {
+    padding: 5px;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.weekdays td:hover {
+    border: 1px solid rgb(42, 162, 102);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#calendar-today {
+    border: 1px solid rgb(42, 162, 102);
+    border-radius: 40px;
+}
+
+.calendar svg {
+    width: 15px;
+    height: 15px;
+    fill: rgb(42, 162, 102);
+}
+
+.calendar svg:hover {
+    cursor: pointer;
+}
