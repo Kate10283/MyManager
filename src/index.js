@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './reset.css'
+import './reset.css';
+import { getData } from "./store/actions";
+import { store } from "./store";
+
+store.dispatch(getData());
 
 ReactDOM.render(
   <React.StrictMode>

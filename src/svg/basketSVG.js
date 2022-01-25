@@ -1,4 +1,4 @@
-export const basket = <svg id="Layer_1"
+export const basketSVG = <svg id="Layer_1"
     version="1.1" viewBox="0 0 64 64" space="preserve" xmlns="http://www.w3.org/2000/svg"
     xlink="http://www.w3.org/1999/xlink"><style type="text/css">
     </style><g><g id="Icon-Trash" transform="translate(232.000000, 228.000000)">

@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "login": "123",
+            "password": 456,
+            "incomes": [
+                {
+                    "name": "work",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                },
+                {
+                    "name": "work",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                },
+                {
+                    "name": "work",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                },
+                {
+                    "name": "work",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                }
+            ],
+            "costs": [
+                {
+                    "name": "book",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                }
+            ],
+            "debts": [
+                {
+                    "debtor": "I",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                }
+            ],
+            "savings": [
+                {
+                    "name": "holidays",
+                    "money": 1200,
+                    "date": "01.01.2000",
+                    "comment": "ssdodfv"
+                }
+            ]
+        }
+    ]
+}
