@@ -1,5 +1,5 @@
-import { arrowLeftSVG } from '../../svg/arrowLeftSVG';
-import { arrowRightSVG } from '../../svg/arrowRightSVG';
+import { arrowLeftSVG } from '../../svg/arrowLeftSVG.tsx';
+import { arrowRightSVG } from '../../svg/arrowRightSVG.tsx';
 import './Calendar.css';
 
 export const Calendar = () => {

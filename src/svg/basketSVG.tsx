@@ -1,5 +1,5 @@
 export const basketSVG = <svg id="Layer_1"
-    version="1.1" viewBox="0 0 64 64" space="preserve" xmlns="http://www.w3.org/2000/svg"
+    version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
     xlink="http://www.w3.org/1999/xlink"><style type="text/css">
     </style><g><g id="Icon-Trash" transform="translate(232.000000, 228.000000)">
         <polygon className="st0" id="Fill-6" points="-207.5,-205.1 -204.5,-205.1 -204.5,-181.1 

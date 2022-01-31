@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { emailSVG } from '../svg/emailSVG';
-import { lockSVG } from '../svg/lockSVG';
+import { emailSVG } from '../svg/emailSVG.tsx';
+import { lockSVG } from '../svg/lockSVG.tsx';
 import './Login.css'
 
 export const Register = () => {

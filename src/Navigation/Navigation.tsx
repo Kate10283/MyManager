@@ -15,7 +15,8 @@ export const Navigation = () => {
                 <NavLink to={'debts'}>Долги</NavLink>
                 <NavLink to={'savings'}>Копилка</NavLink>
                 <p className="nav-line" />
-                <NavLink to={'login'}>Вход|Регистрация</NavLink>
+                <NavLink to={'login'}>Вход</NavLink>
+                <NavLink to={'register'}>Регистрация</NavLink>
             </div>
         </nav>
     );

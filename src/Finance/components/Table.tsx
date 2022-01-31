@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { tableNamesFooter } from '../../config/tableNamesFooter';
-import { tableNamesHeader } from '../../config/tableNamesHeader';
+import { tableNamesFooter } from '../../config/tableNamesFooter.tsx';
+import { tableNamesHeader } from '../../config/tableNamesHeader.tsx';
 import { selectUser } from '../../store/selectors';
-import { basketSVG } from '../../svg/basketSVG';
+import { basketSVG } from '../../svg/basketSVG.tsx';
 import './Table.css';
 
-export const Table = (props) => {
+export const Table = (props: {finance: string}) => {
     const finance = props.finance;
     const userData = useSelector(selectUser);
-    const [tableData, setTableData] = useState();
-    const [table, setTable] = useState();
-    const [amount, setAmount] = useState(0);
+    const [tableData, setTableData] = useState<null | string[]>(null);
+    const [table, setTable] = useState<null | JSX.Element[][]>();
+    const [amount, setAmount] = useState<number>(0);
 
     const showInput = (event) => {
         event.target.classList.toggle('_hide');
@@ -34,7 +34,7 @@ export const Table = (props) => {
             setTableData(userData[finance]);
         }
         if (tableData) {
-            const tableContent = [];
+            const tableContent: JSX.Element[][] = [];
             let tempAmount = 0;
             tableData.map((elemTable) => {
                 Object.keys(elemTable).map((key, id) => {
@@ -119,7 +119,7 @@ export const Table = (props) => {
                     }) : null}
 
                     <tr>
-                        <td id='table-new' align='center' colSpan='5'>
+                        <td id='table-new' align='center' colSpan={5}>
                             <button type='button' title='Добавить новую запись'>+</button>
                         </td>
                     </tr>
